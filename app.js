@@ -1,7 +1,7 @@
 var dob= document.querySelector('#dob');
 var luckyNum= document.querySelector('#lucky-num');
 var btnCheck= document.querySelector('#btn-check');
-
+var outputValue=document.querySelector('#op');
 console.log(dob.value)
 btnCheck.addEventListener('click',checkBirthday)
 
@@ -29,9 +29,11 @@ function checkValues(sum,luckyNumber)
     console.log(sum,luckyNumber)
     if(sum%luckyNumber===0)
     {
-        console.log('your birthday is lucky')
+
+        outputValue.innerText='your birthday is lucky!💥💥';
+       
     }
     else{
-        console.log('your birthday is not lucky')
+        outputValue.innerText='your birthday is not lucky 😣';
     }
 }

@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0ss;
+    padding: 0;
+    background: #D1D5DB;
 }
 
 
@@ -12,8 +13,30 @@
     width: 30vw;
     justify-content: center;
     margin-left: 35%;
-    margin-top:2rem;
+    margin-top:8rem;
     text-align: center;
+    
     
 }
 
+#dob ,#lucky-num,#btn-check
+{
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 2rem  
+}
+
+#op
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
