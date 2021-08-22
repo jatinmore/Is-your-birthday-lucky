@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0ss;
+}
+
+
+.main
+{
+
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top:2rem;
+    text-align: center;
+    
+}
+
